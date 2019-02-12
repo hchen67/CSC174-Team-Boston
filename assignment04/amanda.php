@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Amanda O'Donnell</title>
+    <title>Amanda O'Donnell | Boston | Assignment 04</title>
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <header>
-        <h1>Won Kuk Lee</h1>
-        <img src="images/wonkuk-headshot.jpg" alt="Amanda">
+        <h1>Amanda O'Donnell</h1>
+        <img src="images/amanda.jpg" alt="Amanda">
     </header>
     <nav class="menu">
 	<ul>
