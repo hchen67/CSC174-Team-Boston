@@ -1,49 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "inc/html-top.inc";?>
+
 <head>
-    <meta charset="utf-8" />
+
+    <?php include "inc/head.inc";?>
     <title>Won Kuk Lee | Boston | Assignment 04</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 
+
+
 <body>
+
+
     <header>
-  
+        <a href="index.php">
         <h1>Won Kuk Lee</h1>
         <img src="images/wonkuk-headshot.jpg" alt="Won Kuk">
+        </a>
     </header>
-    <nav class="menu">
-	<ul>
-		<li><a href="index.php">Home</a></li>
-		<li><a href="amanda.php">Amanda</a></li>
-		<li><a href="jacob.php">Jacob</a></li>
-		<li><a href="joseph.php">Joseph</a></li>
-	</ul>
-    </nav>
+
+
+
+<?php include "inc/nav.inc";?>
+
+
+
+
     <main>
-    <h2>Major and Class Year</h2>
 
-    <div>Computer Science '19.</div>
 
-    <h2>Classes Taken at the University of Rochester</h2>
-    <p>
-    <ul>
-    <li>CSC 282</li>
-    <li>CSC 252</li>
-    <li>CSC 210</li>
-    <li>CSC 214</li>
-    <li>CSC 261</li>
-    <li>CSC 172</li>
-    <li>CSC 170</li>
-    <li>CSC 174</li>
-    </ul>
-    </p>
+       <h2>Major and Class Year</h2>
 
-    <h2>Work Experience</h2>
+       <div>Computer Science '19.</div>
 
-    <p>
-    When I was a high schooler, I held a plethora of
+       <h2>Classes Taken at the University of Rochester</h2>
+
+       <p>
+
+       <ul>
+       <li>CSC 282</li>
+       <li>CSC 252</li>
+       <li>CSC 210</li>
+       <li>CSC 214</li>
+       <li>CSC 261</li>
+       <li>CSC 172</li>
+       <li>CSC 170</li>
+       <li>CSC 174</li>
+       </ul>
+       
+       </p>
+
+       <h2>Work Experience</h2>
+
+       <p>
+            When I was a high schooler, I held a plethora of
             different jobs such as yogurt, smoothie, and bubble tea making, chicken serving, and SAT teaching. Two
             summers ago I worked at ClassLink as a Junior Developer Intern and would say that it wasn’t a pleasant
             experience as I did not have much mentorship. The experience was so awful that I thought I would hate the
@@ -52,16 +62,27 @@
             experience. This internship definitely revitalized my love for the industry. Most recently, I worked as a
             Teaching Assistant for CSC 210 and also landed a full-time software engineering job in Boston which I will
             start in July.
-    </p>
+       </p>
+
+
     </main>
+
+
+
+
     <aside>
+
         <h2>Interests and Hobbies</h2>
+
         <p>I grew up mostly in Bergen County, NJ, especially within
             the Korean-American enclave of Palisades Park. Growing up I was always fascinated by computers and how they
             worked. I remember milestones like the process of installing my first graphics card, and learning how to
             mod video games.
             </p>
+
     </aside>
+
+
 <!-- <ul>
     <li> Software Engineer </li>
     <li> Senior Student at UR</li>
@@ -111,9 +132,9 @@
             internship.
         </p>
     </div> -->
-    <footer>
-    <div>CSC 174: Advanced Front-end Web Design and Development</div>
-    </footer>'
+
+<?php include "inc/footer.inc";?>
+<?php include "inc/scripts.inc";?>
     
     
 </body>

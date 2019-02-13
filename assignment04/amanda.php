@@ -1,42 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "inc/html-top.inc";?>
+
+
 <head>
-    <meta charset="utf-8" />
+    
+    <?php include "inc/head.inc";?>
     <title>Amanda O'Donnell | Boston | Assignment 04</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 
+
+
 <body>
+
+
     <header>
+        <a href="index.php">
         <h1>Amanda O'Donnell</h1>
         <img src="images/amanda.jpg" alt="Amanda">
+        </a>
     </header>
-    <nav class="menu">
-	<ul>
-		<li><a href="index.php">Home</a></li>
-		<li><a href="amanda.php">Amanda</a></li>
-		<li><a href="jacob.php">Jacob</a></li>
-		<li><a href="joseph.php">Joseph</a></li>
-	</ul>
-    </nav>
+
+
+
+<?php include "inc/nav.inc";?>
+
+
+
+
     <main>
+
+
         <h2>Major and Class Year</h2>
 
         <div>Brain and Cognitive Sciences with Computer Science and Psychology Minors '19.</div>
 
         <h2>Classes Taken at the University of Rochester</h2>
+
         <p>
+
         <ul>
-        <li>CSC 171 - The Science of Programming</li>
-        <li>Artificial Intelligence</li>
-        <li>Basic Neurobiology</li>
-        <li>BIO 110</li>
-        <li>PSY 161</li>
-        <li>CSC 170</li>
-        <li>CSC 174</li>
+           <li>CSC 171 - The Science of Programming</li>
+           <li>Artificial Intelligence</li>
+           <li>Basic Neurobiology</li>
+           <li>BIO 110</li>
+           <li>PSY 161</li>
+           <li>CSC 170</li>
+           <li>CSC 174</li>
         </ul>
+
         </p>
+
 
         <h2>Work Experience</h2>
 
@@ -48,9 +61,17 @@
             a summer. This year, I’ve been working as a Peer Advisor for the Brain & Cognitive Sciences department, as
             well as a Teaching Assistant for Machines & Consciousness.
         </p>
+
+
     </main>
+
+
+
+
     <aside>
+
         <h2>Interests and Hobbies</h2>
+
         <p>In addition to my academic and curricular pursuits, I have a number of hobbies. I really enjoy dancing, and
             to keep up with this interest I have completed a Dance cluster as well as been a member of Ballet
             Performance Group. This semester, I hope to join Rochester Rangoli to learn a bit of Bollywood dance. I
@@ -62,6 +83,9 @@
             games. I like how simple excursions become adventures if you do them after midnight or in a snowstorm, and
             I went to Wegman’s during Snowmaggedon.
             </p>
+
+
+
     </aside>
         <!-- <p>I am a student here at University of Rochester finishing up my major in Brain & Cognitive Sciences as well
             as minors in Computer Science and Psychology. I knew coming into college that I wanted to major in Brain &
@@ -98,9 +122,9 @@
             well as a Teaching Assistant for Machines & Consciousness.</p> -->
   
   
-    <footer>
-    <div>CSC 174: Advanced Front-end Web Design and Development</div>
-    </footer>'
+
+<?php include "inc/footer.inc";?>
+<?php include "inc/scripts.inc";?>
 
 
 </body>

@@ -1,48 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "inc/html-top.inc";?>
+
+
 <head>
-    <meta charset="utf-8">
+    
+    <?php include "inc/head.inc";?>
     <title>Joseph Hur | Boston | Assignment 04</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 
-<body class="container">
+
+
+<body>
+
+
     <header>
-
-            <h1>Joseph Hur</h1>
-            <img src="images/jhur.jpg" alt="Joseph Hur">
-
+        <a href="index.php">
+        <h1>Joseph Hur</h1>
+        <img src="images/jhur.jpg" alt="Joseph Hur">
+        </a>
     </header>
-    <nav class="menu">
-	<ul>
-		<li><a href="index.php">Home</a></li>
-		<li><a href="amanda.php">Amanda</a></li>
-		<li><a href="jacob.php">Jacob</a></li>
-		<li><a href="joseph.php">Joseph</a></li>
-	</ul>
-    </nav>
+
+
+
+<?php include "inc/nav.inc";?>
+
+
+
+
     <main>
-    <h2>Major and Class Year</h2>
 
-    <div>Computer Science and Anthropology '19.</div>
+        <h2>Major and Class Year</h2>
 
-    <h2>Classes Taken at the University of Rochester</h2>
-    <p>
-    <ul>
+        <div>Computer Science and Anthropology '19.</div>
 
+        <h2>Classes Taken at the University of Rochester</h2>
 
-    <li>CSC 210</li>
+        <p>
 
-    <li>CSC 261</li>
+        <ul>
+        <li>CSC 210</li>
+        <li>CSC 261</li>
+        <li>CSC 170</li>
+        <li>CSC 174</li>
+        </ul>
 
-    <li>CSC 170</li>
-    <li>CSC 174</li>
-    </ul>
-    </p>
+        </p>
 
-    <h2>Work Experience</h2>
-    Senior year of
+        <h2>Work Experience</h2>
+        <p>
+            Senior year of
             high school I had my first computer-related internship, at KAB computers. While the job itself involved
             little programming, I was able to get a great sense of the type and scope of software various types of
             businesses need. During that job I shadowed employees as they worked in places like government buildings
@@ -51,12 +57,18 @@
             project was called Smart Scheduler, and was a web app that automated the scheduling of a user’s event. It
             was a good introduction to the team dynamics of building a website, as well as how different programming
             let’s say a server versus the user interface. 
-    <p>
-   
-    </p>
+        </p>
+
+
     </main>
+
+
+
+
     <aside>
-    <h2>Interests and Hobbies</h2>
+
+        <h2>Interests and Hobbies</h2>
+
         <p>I was born in Korea and spent most of my childhood in underdeveloped countries such
             as the Papua New Guinea and the Philippines. So when I came to the United States in elementary school, I
             was fascinated by the prevalence of computers and their sheer power. All I thought about was the next time
@@ -64,7 +76,11 @@
             was this stark contrast between being in such underdeveloped countries and coming to the US and seeing all
             this accessible and cool technology that made me interested in programming and computers in general.
             </p>
+
     </aside>
+
+
+
     <!-- <aside>
         <ul>
             <li>Student @ University of Rochester</li>
@@ -109,11 +125,9 @@
         </p>
     </main> -->
 
-    <footer>
-        <div>
-            CSC 174: Advanced Front-End Web Design and Development
-        </div>
-    </footer>
+<?php include "inc/footer.inc";?>
+<?php include "inc/scripts.inc";?>
+
 
 
 </body>
