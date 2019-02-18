@@ -36,7 +36,7 @@
 
         <div class="card mx-4 shadow p-0 mb-5 bg-white rounded">
             <h2 class="card-header">Major and Class Year</h2>
-            <img class="card-img-top rounded" src="images/amanda.jpg" alt="Amanda">
+            <img class="card-img-top" src="images/amanda.jpg" alt="Amanda">
 
             <div class="card-body">
                 <div class="card-text mb-2">Brain and Cognitive Sciences with Computer Science and Psychology Minors '19.</div>
@@ -87,19 +87,19 @@
 
         <h2 class="card-header">Classes Taken at the University of Rochester</h2>
         <div class="card-body">
-            <p class="card-text">
+            <div class="card-text">
 
-            <ul>
-                <li>CSC 171 - The Science of Programming</li>
-                <li>Artificial Intelligence</li>
-                <li>Basic Neurobiology</li>
-                <li>BIO 110</li>
-                <li>PSY 161</li>
-                <li>CSC 170</li>
-                <li>CSC 174</li>
-            </ul>
+                <ul>
+                    <li>CSC 171 - The Science of Programming</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Basic Neurobiology</li>
+                    <li>BIO 110</li>
+                    <li>PSY 161</li>
+                    <li>CSC 170</li>
+                    <li>CSC 174</li>
+                </ul>
 
-            </p>
+            </div>
         </div>
 
 

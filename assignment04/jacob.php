@@ -84,21 +84,22 @@
 
         <h2 class="card-header">Classes Taken at the University of Rochester</h2>
         <div class="card-body">
-            <p class="card-text">
+            <div class="card-text">
 
-            <ul>
-                <li>CSC 282</li>
-                <li>CSC 252</li>
-                <li>CSC 210</li>
-                <li>CSC 214</li>
-                <li>CSC 261</li>
-                <li>CSC 172</li>
-                <li>CSC 170</li>
-                <li>CSC 174</li>
-            </ul>
+                <ul>
+                    <li>CSC 282</li>
+                    <li>CSC 252</li>
+                    <li>CSC 210</li>
+                    <li>CSC 214</li>
+                    <li>CSC 261</li>
+                    <li>CSC 172</li>
+                    <li>CSC 170</li>
+                    <li>CSC 174</li>
+                </ul>
 
-            </p>
+            </div>
         </div>
+
 
 
     </aside>
