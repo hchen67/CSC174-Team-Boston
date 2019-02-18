@@ -1,10 +1,11 @@
 <div class="container">
-    <nav class="menu">
+    <nav class="menu navbar navbar-expand-lg navbar-dark bg-dark">
 
-        <li><a href="index.php">Home</a></li>
-        <li><a href="amanda.php">Amanda</a></li>
-        <li><a href="jacob.php">Jacob</a></li>
-        <li><a href="joseph.php">Joseph</a></li>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="amanda.php">Amanda</a></li>
+            <li class="nav-item"><a class="nav-link" href="jacob.php">Jacob</a></li>
+            <li class="nav-item"><a class="nav-link" href="joseph.php">Joseph</a></li>
         </ul>
 
     </nav>
