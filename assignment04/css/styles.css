@@ -1,7 +1,7 @@
 .is-current {
 	color: deeppink;
 }
-img{
+.fixx{
 	height: 380px;
 
 }
@@ -16,5 +16,9 @@ h1{
 .name{
 	font-family:  'Merienda One', Helvetica, sans-serif;
 	color: rgba(0,0,0,0.7);
+	font-size: 27px;
 	text-shadow: 3px 3px 3px #fff;
+}
+a{
+	text-decoration: none;
 }

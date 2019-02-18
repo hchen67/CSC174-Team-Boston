@@ -12,77 +12,97 @@
 
 <body>
 
-
 <header class="container">
-    <a href="index.php">
-        <h1>Joseph Hur</h1>
-        <img src="images/jhur.jpg" alt="Joseph Hur">
-    </a>
+    <h1 class="text-weight-lighter">Joseph Hur</h1>
+    <div class="container">
+        <nav class="menu navbar navbar-expand-lg navbar-dark bg-dark mb-4 mt-3 shadow rounded">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="amanda.php">Amanda</a></li>
+                <li class="nav-item"><a class="nav-link" href="jacob.php">Jacob</a></li>
+                <li class="nav-item"><a class="nav-link active" href="joseph.php">Joseph</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
 </header>
 
 
 
-<?php include "inc/nav.inc";?>
+
+
+<div class="container">
+
+    <main class="card-deck row">
+
+
+        <div class="card mx-4 shadow p-0 mb-5 bg-white rounded">
+
+            <h2 class="card-header">Major and Class Year</h2>
+            <img class="card-img-top" src="images/jhur.jpg" alt="jhur">
+            <div class="card-body">
+                <div class="card-text">Computer Science and Anthropology '19.</div>
+            </div>
+        </div>
+
+
+        <div class="card mx-0 shadow p-0 mb-5 bg-white rounded">
+            <h2 class="card-header">Interests and Hobbies</h2>
+            <div class="card-body">
+                <p class="card-text">I was born in Korea and spent most of my childhood in underdeveloped countries such
+                    as the Papua New Guinea and the Philippines. So when I came to the United States in elementary school, I
+                    was fascinated by the prevalence of computers and their sheer power. All I thought about was the next time
+                    I could go on a computer and start making stick fights using this old program called Scratch. I think it
+                    was this stark contrast between being in such underdeveloped countries and coming to the US and seeing all
+                    this accessible and cool technology that made me interested in programming and computers in general.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="card mx-4 shadow p-0 mb-5 bg-white rounded">
+            <h2 class="card-header">Work Experience</h2>
+            <div class="card-body">
+                <p class="card-text">
+                    Senior year of
+                    high school I had my first computer-related internship, at KAB computers. While the job itself involved
+                    little programming, I was able to get a great sense of the type and scope of software various types of
+                    businesses need. During that job I shadowed employees as they worked in places like government buildings
+                    and large businesses. CSC210 was a course that covered the both the back end and the front
+                    end aspects of development, and its final project involved making a website from scratch. My group’s final
+                    project was called Smart Scheduler, and was a web app that automated the scheduling of a user’s event. It
+                    was a good introduction to the team dynamics of building a website, as well as how different programming
+                    let’s say a server versus the user interface.
+                </p>
+            </div>
+        </div>
+
+    </main>
 
 
 
 
-<main>
+    <aside class="row card mx-2 shadow p-0 mb-5 bg-white rounded">
 
 
-    <div class="container">
+        <h2 class="card-header">Classes Taken at the University of Rochester</h2>
+        <div class="card-body">
+            <p class="card-text">
 
-    <h2>Major and Class Year</h2>
+            <ul>
+                <li>CSC 210</li>
+                <li>CSC 261</li>
+                <li>CSC 170</li>
+                <li>CSC 174</li>
+            </ul>
 
-    <div>Computer Science and Anthropology '19.</div>
+            </p>
+        </div>
 
-    <h2>Classes Taken at the University of Rochester</h2>
-
-    <p>
-
-    <ul>
-        <li>CSC 210</li>
-        <li>CSC 261</li>
-        <li>CSC 170</li>
-        <li>CSC 174</li>
-    </ul>
-
-    </p>
-
-    </div>
-
-    <h2>Work Experience</h2>
-    <p>
-        Senior year of
-        high school I had my first computer-related internship, at KAB computers. While the job itself involved
-        little programming, I was able to get a great sense of the type and scope of software various types of
-        businesses need. During that job I shadowed employees as they worked in places like government buildings
-        and large businesses. CSC210 was a course that covered the both the back end and the front
-        end aspects of development, and its final project involved making a website from scratch. My group’s final
-        project was called Smart Scheduler, and was a web app that automated the scheduling of a user’s event. It
-        was a good introduction to the team dynamics of building a website, as well as how different programming
-        let’s say a server versus the user interface.
-    </p>
-
-
-</main>
-
-
-
-
-<aside>
-
-    <h2>Interests and Hobbies</h2>
-
-    <p>I was born in Korea and spent most of my childhood in underdeveloped countries such
-        as the Papua New Guinea and the Philippines. So when I came to the United States in elementary school, I
-        was fascinated by the prevalence of computers and their sheer power. All I thought about was the next time
-        I could go on a computer and start making stick fights using this old program called Scratch. I think it
-        was this stark contrast between being in such underdeveloped countries and coming to the US and seeing all
-        this accessible and cool technology that made me interested in programming and computers in general.
-    </p>
-
-</aside>
+    </aside>
+</div>
 
 
 

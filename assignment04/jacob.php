@@ -4,7 +4,7 @@
 
     <?php include "inc/head.inc";?>
     <title>Won Kuk Lee | Boston | Assignment 04</title>
-    
+
 </head>
 
 
@@ -12,57 +12,66 @@
 <body>
 
 
-    <header>
-        <a href="index.php">
-        <h1>Won Kuk Lee</h1>
-        <img src="images/wonkuk-headshot.jpg" alt="Won Kuk">
-        </a>
-    </header>
+
+<header class="container">
+    <h1 class="text-weight-lighter">Won Kuk Lee</h1>
+    <div class="container">
+        <nav class="menu navbar navbar-expand-lg navbar-dark bg-dark mb-4 mt-3 shadow rounded">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="amanda.php">Amanda</a></li>
+                <li class="nav-item"><a class="nav-link active" href="jacob.php">Jacob</a></li>
+                <li class="nav-item"><a class="nav-link" href="joseph.php">Joseph</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+</header>
 
 
 
-<?php include "inc/nav.inc";?>
+
+<div class="container">
+
+    <main class="row card-deck">
+
+        <div class="card mx-4 shadow p-0 mb-5 bg-white rounded">
+            <h2 class="card-header">Major and Class Year</h2>
+            <img class="card-img-top" src="images/wonkuk-headshot.jpg" alt="wkl">
+            <div class="card-body">
+                <div class="card-text">Computer Science '19</div>
+
+            </div>
+        </div>
+        <div class="card mx-0 shadow p-0 mb-5 bg-white rounded">
+            <h2 class="card-header">Interests and Hobbies</h2>
+            <div class="card-body">
+                <p class="card-text">I grew up mostly in Bergen County, NJ, especially within
+                    the Korean-American enclave of Palisades Park. Growing up I was always fascinated by computers and how they
+                    worked. I remember milestones like the process of installing my first graphics card, and learning how to
+                    mod video games.
+                </p>
+            </div>
+        </div>
 
 
 
-
-    <main>
-
-
-       <h2>Major and Class Year</h2>
-
-       <div>Computer Science '19.</div>
-
-       <h2>Classes Taken at the University of Rochester</h2>
-
-       <p>
-
-       <ul>
-       <li>CSC 282</li>
-       <li>CSC 252</li>
-       <li>CSC 210</li>
-       <li>CSC 214</li>
-       <li>CSC 261</li>
-       <li>CSC 172</li>
-       <li>CSC 170</li>
-       <li>CSC 174</li>
-       </ul>
-       
-       </p>
-
-       <h2>Work Experience</h2>
-
-       <p>
-            When I was a high schooler, I held a plethora of
-            different jobs such as yogurt, smoothie, and bubble tea making, chicken serving, and SAT teaching. Two
-            summers ago I worked at ClassLink as a Junior Developer Intern and would say that it wasn’t a pleasant
-            experience as I did not have much mentorship. The experience was so awful that I thought I would hate the
-            software engineering industry. Last summer, I worked at Ellucian as a Software Developer Intern. Thankfully in this second internship, I
-            had a very solid mentorship as it was a much bigger company and had a very enriching and invaluable
-            experience. This internship definitely revitalized my love for the industry. Most recently, I worked as a
-            Teaching Assistant for CSC 210 and also landed a full-time software engineering job in Boston which I will
-            start in July.
-       </p>
+        <div class="card mx-4 shadow p-0 mb-5 bg-white rounded">
+            <h2 class="card-header">Work Experience</h2>
+            <div class="card-body">
+                <p class="card-text">
+                    When I was a high schooler, I held a plethora of
+                    different jobs such as yogurt, smoothie, and bubble tea making, chicken serving, and SAT teaching. Two
+                    summers ago I worked at ClassLink as a Junior Developer Intern and would say that it wasn’t a pleasant
+                    experience as I did not have much mentorship. The experience was so awful that I thought I would hate the
+                    software engineering industry. Last summer, I worked at Ellucian as a Software Developer Intern. Thankfully in this second internship, I
+                    had a very solid mentorship as it was a much bigger company and had a very enriching and invaluable
+                    experience.
+                </p>
+            </div>
+        </div>
 
 
     </main>
@@ -70,17 +79,30 @@
 
 
 
-    <aside>
+    <aside class="row card mx-2 shadow p-0 mb-5 bg-white rounded">
 
-        <h2>Interests and Hobbies</h2>
 
-        <p>I grew up mostly in Bergen County, NJ, especially within
-            the Korean-American enclave of Palisades Park. Growing up I was always fascinated by computers and how they
-            worked. I remember milestones like the process of installing my first graphics card, and learning how to
-            mod video games.
+        <h2 class="card-header">Classes Taken at the University of Rochester</h2>
+        <div class="card-body">
+            <p class="card-text">
+
+            <ul>
+                <li>CSC 282</li>
+                <li>CSC 252</li>
+                <li>CSC 210</li>
+                <li>CSC 214</li>
+                <li>CSC 261</li>
+                <li>CSC 172</li>
+                <li>CSC 170</li>
+                <li>CSC 174</li>
+            </ul>
+
             </p>
+        </div>
+
 
     </aside>
+</div>
 
 
 <!-- <ul>
@@ -135,8 +157,8 @@
 
 <?php include "inc/footer.inc";?>
 <?php include "inc/scripts.inc";?>
-    
-    
+
+
 </body>
 
 </html>
