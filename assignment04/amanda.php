@@ -13,11 +13,11 @@
 <body>
 
 
-<header class="container">
+<header class="container mt-2">
 
     <h1 class="text-weight-lighter">Amanda O'Donnell</h1>
     <div class="container">
-        <nav class="menu navbar navbar-expand-lg navbar-dark bg-dark mb-4 mt-3 shadow rounded">
+        <nav class="menu navbar navbar-expand-lg navbar-dark bg-dark mb-4 mt-4 shadow rounded">
 
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
