@@ -15,7 +15,7 @@
 
     <header>
         <a href="index.php">
-        <h1>Amanda O'Donnell</h1>
+        <h1 class="text-weight-lighter">Amanda O'Donnell</h1>
         <img src="images/amanda.jpg" alt="Amanda">
         </a>
     </header>
